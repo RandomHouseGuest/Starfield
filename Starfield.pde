@@ -16,5 +16,3 @@ class OddballParticle //inherits from Particle
 {
 	//your code here
 }
-
-
