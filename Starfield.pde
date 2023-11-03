@@ -47,6 +47,6 @@ class OddBall extends Particle{
     }
   }
   void show(){
-    ellipse((float)myX, (float)myY, 35, 35);
+    ellipse((float)(myX+(Math.cos(myAngle)*mySpeed)), (float)(myY+(Math.sin(myAngle)*mySpeed)), 35, 35);
   }
 }
