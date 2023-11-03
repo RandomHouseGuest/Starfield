@@ -27,8 +27,8 @@ class Particle{
     noStroke();
     myX+=Math.random()*3.2313;
     myY+=Math.random()*3.2313;
-    mySpeed = Math.random()*11;
-    myAngle = Math.cos(3.51);
+    myAngle = Math.random()*2*Math.PI;
+    mySpeed = Math.random()*10;
   }
   void show(){
     ellipse((float)myX, (float)myY, 20, 20);
