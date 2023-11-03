@@ -25,8 +25,6 @@ class Particle{
   void move(){
     fill(myColor);
     noStroke();
-    myX+=Math.random()*3.2313;
-    myY+=Math.random()*3.2313;
     myAngle = Math.random()*2*Math.PI;
     mySpeed = Math.random()*10;
   }
